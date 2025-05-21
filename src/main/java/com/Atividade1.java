@@ -12,7 +12,7 @@ public class Atividade1 {
         double segundoNumero = scanner.nextDouble();
         double soma= primeiroNumero + segundoNumero;
       double media= soma /2;
-        System.out.println("O resultado é ");
+        System.out.println("O resultado é: ");
         System.out.println(media);
     }
     }
