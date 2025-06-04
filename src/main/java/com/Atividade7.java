@@ -6,10 +6,10 @@ public class Atividade7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro Numero: ");
-        double primeiroNumero = scanner.nextDouble();
+        int primeiroNumero = scanner.nextInt();
 
         System.out.println("Digite o segundo Numero: ");
-        double segundoNumero = scanner.nextDouble();
+        int segundoNumero = scanner.nextInt();
 
         System.out.println("O resultado é:  ");
         System.out.println(primeiroNumero + segundoNumero);
